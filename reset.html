@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Business Template</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+	<title>Business Template - Sign up</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
     <!-- Styles -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/compiled/bootstrap-overrides.css" type="text/css" />
@@ -12,8 +12,7 @@
     
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
 
-    <link rel="stylesheet" href="css/compiled/contact.css" type="text/css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection" />
+    <link rel="stylesheet" href="css/compiled/reset.css" type="text/css" media="screen" />
 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -29,117 +28,77 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html" class="navbar-brand"><strong>T2DM</strong></a>
+                <a href="index.html" class="navbar-brand"><strong>CLEAN CANVAS</strong></a>
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about-us.html">ABOUT US</a></li>
-                    <li><a href="project.html">PROJECT</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                            <li><a href="sign-in.html">Sign in</a></li>
+                            <li><a href="sign-up.html">Sign up</a></li>
+                            <li><a href="backgrounds.html">Backgrounds</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pricing.html">PRICING</a></li>
                     <li><a href="contact.html">CONTACT US</a></li>
-                    
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="sign-up.html">Sign up</a></li>
+                    <li class="active"><a href="sign-in.html">Sign in</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div id="contact">
+    <div id="reset_pwd" class="reset_page">
         <div class="container">
-            <div class="section_header">
-                <h3>Get in touch</h3>
-            </div>
-            <div class="row contact">
-                <p>
-                    We’d love to hear from you. Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as I can. Please allow a couple days for me to respond.</p>
-
-                <form>
-                    <div class="row form">
-                        <div class="col-sm-6 row-col">
-                            <div class="box">
-                                <input class="name form-control" type="text" placeholder="Name">
-                                <input class="mail form-control" type="text" placeholder="Email">
-                                <input class="phone form-control" type="text" placeholder="Phone">
+            <div class="row">
+                <div class="col-md-12 box_wrapper">
+                    <div class="col-md-12">
+                        <div class="box">
+                            <div class="head">
+                                <h4>Enter your email address below to receive instructions on how to reset your password.</h4>
+                                <div class="line"></div>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="box">
-                                <textarea placeholder="Type a message here..." class="form-control"></textarea>
+                            <div class="form">
+                                <form>
+                                    <input type="text" placeholder="Email address" class="control-form" />
+                                    <input type="submit" value="Reset password"/>
+                                </form>
                             </div>
                         </div>
                     </div>
-
-                    <div class="row submit">
-                        <div class="col-md-5 box">
-                            <label class="checkbox">
-                                <input type="checkbox"> Sign up for newsletter
-                            </label>
-                        </div>
-                        <div class="col-md-3 right">
-                            <input type="submit" value="Send your message">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <div class="map">
-            <div class="container">
-                <div class="box_wrapp">
-                    <div class="box_cont">
-                        <div class="head">
-                            <h6>Contact</h6>
-                        </div>
-                        <ul class="street">
-                            <li>1136 Bandy Run Rd</li>
-                            <li>Herndon VA. 20170</li>
-                            <li>United States</li>
-                            <li class="icon icontop">
-                                <span class="contacticos ico1"></span>
-                                <span class="text">1 703 0729 01830</span>
-                            </li>
-                            <!--
-                            <li class="icon">
-                                <span class="contacticos ico2"></span>
-                                <a class="text" href="#">bootstrap@twitter.com</a>
-                            </li>
-                            -->
-                        </ul>
-                        <!--
-                        <div class="head headbottom">
-                            <h6>Work with us</h6>
-                        </div>
-                        <p>We’ve prepared a simple project planner to get to know you and your project better.</p>
-
-                        <a href="#" class="btn">Let's get started</a>
-                        -->
-                    </div>
+                    <p class="already">Know your password? <a href="sign-in.html"> Sign in</a></p>
                 </div>
             </div>
-            
-            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/?ie=UTF8&amp;ll=64.089157,-21.816616&amp;spn=0.045157,0.15398&amp;t=m&amp;z=13&amp;output=embed"></iframe>
         </div>
     </div>
 
     <!-- starts footer -->
-    <footer id="footer" style="margin-top:0;">
+    <footer id="footer">
         <div class="container">
             <div class="row info">
                 <div class="col-sm-6 residence">
                     <ul>
-                        <li>1136 Bandy Run Road</li>
-                        <li>Herndon, VA 20170</li>
+                        <li>2301 East Lamar Blvd. Suite 140. City, Arlington.</li>
+                        <li>United States, Zip Code TX 76006.</li>
                     </ul>
                 </div>
-                
                 <div class="col-sm-5 touch">
                     <ul>
-                        <li><strong>P.</strong> 1 703 729 1830</li>
-                        <li><strong>E.</strong><a href="#"> taeyoun@t2dm.net</a></li>
+                        <li><strong>P.</strong> 1 817 274 2933</li>
+                        <li><strong>E.</strong><a href="#"> bootstrap@twitter.com</a></li>
                     </ul>
                 </div>
             </div>
-            <!--
             <div class="row credits">
                 <div class="col-md-12">
                     <div class="row social">
@@ -181,7 +140,6 @@
                     </div>
                 </div>            
             </div>
-            -->
         </div>
     </footer>
 
