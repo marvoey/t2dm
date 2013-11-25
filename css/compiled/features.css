@@ -56,6 +56,7 @@
     #features .option2 .right {
       float: right; }
   #features .option3 .feature {
+    min-height: 500px;
     padding: 40px 0 38px 0;
     background: white;
     box-shadow: 0 1px 3px 1px #E0E0E0;
